@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var a = eval(prompt("Nhap vao canh a: ")); 
+        var b = eval(prompt("Nhap vao canh b: ")); 
+        var c = eval(prompt("Nhap vao canh c: ")); 
+            if(a+b>c && a+c>b && b+c>a)
+                if(a==b && a==c && b==c)
+                    {document.writeln("Tam Giac Deu")}
+                    else 
+                        if(a==b || a==c || b==c) 
+                            {document.writeln("Tam Giac ABC Can")}
+                        else
+                            {document.writeln("Tam giac ABC la tam giac thuong")}
+            else{ 
+                document.writeln("Khon Phai Tam Giac")
+            }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
